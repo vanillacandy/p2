@@ -1,0 +1,17 @@
+{
+  "banana": {
+    "calorie" : 1
+  },
+  "strawberry": {
+    "calorie" : 2
+  },
+  "blueberry": {
+    "calorie" : 3
+  },
+  "mango": {
+    "calorie" : 4
+  },
+  "kiwi": {
+    "calorie" : 5
+  }
+}
