@@ -1,6 +1,6 @@
 # Project 2
 + By: Catherine Lin
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: <http://p2.vanillacandy.website>
 
 ## Outside resources
 + Styling via [Boostrap CDN] (http://getbootstrap.com/)
