@@ -7,7 +7,10 @@
 
 
 ## 3 Unique inputs
- 
++ A text input to collect the user's name
++ A set of radio-box to choose the breakfast meal 
++ A drop-down to choose a drink
+
 ## Class
 *`Form.php`, `Food.php`, etc.*
 

@@ -26,12 +26,16 @@ require 'logic.php';
     <p>Break-fast is a small menu to for daily breakfast meal and it calculates meal calories. Search below for your favorite.</p>
 
     <form method='POST' action='searchBreakfast.php' >
-        <label>What's your name?
+        <div class='instructions'>
+            * Required
+        </div>
+
+        <label> * What's your name?
             <input type='text' name='name' value='<?php if(isset($name)) echo $name ?>'>
         </label>
 
         <fieldset class='radios'>
-            <legend>Select a main meal for breakfast</legend>
+            <legend> * Select a main meal for breakfast</legend>
             <ul class='radios'>
                 <!-- Note that each radio has the same name of `day` -->
                 <li><label><input type='radio'
@@ -52,7 +56,7 @@ require 'logic.php';
             </ul>
         </fieldset>
 
-        <label for='drink'>Select a drink </label>
+        <label for='drink'> * Select a drink </label>
         <select name='drink' id='drink'>
             <option value='choose'>Choose one...</option>
             <option value='milk'>Milk</option>
